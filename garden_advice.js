@@ -1,3 +1,4 @@
+// Function to return gardening advice based on month
 function getGardenAdvice(month) {
   if (["December", "January", "February"].includes(month)) {
     return "Summer: Water plants regularly and provide shade.";
@@ -12,4 +13,8 @@ function getGardenAdvice(month) {
   }
 }
 
-console.log(getGardenAdvice("January"));
+// Ask user for input
+const userMonth = prompt("Enter a month:");
+
+// Display result
+console.log(getGardenAdvice(userMonth));
