@@ -1,5 +1,6 @@
 // Garden Advice App
 // This app gives gardening advice based on the month and season.
+// Improved code readability - added comment
 
 // Function to display gardening advice
 function getGardenAdvice(month, season) {
